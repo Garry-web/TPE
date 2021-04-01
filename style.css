@@ -1,3 +1,26 @@
 body{
     background-color: aqua;
 }
+
+#haut{
+    background-color: aliceblue;
+    height: 200px;
+    width: 800px;
+    margin-left: 500px;
+    margin-right: 250px;
+    border: 2mm ridge rgb(0, 0, 0);
+    background-image:url(menu.jpg);
+}
+
+h1{
+    font-size: 52px;
+    line-height: 100px;
+    margin-left: 105px;
+    text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color: #FF9933; 
+    padding:32px;
+    font-weight:lighter;
+    text-align:center;
+    display:inline;
+  }
