@@ -9,6 +9,7 @@
 </head>
 <body>
 
+
 <div id="hautdepage">
 
 <div id="haut">    
@@ -17,27 +18,27 @@
 
 <div id="perso">
     <p>Fiche de la personne co à ajouter en php</p>
+  <div id="conex">
+    <a href="connexion.php" class="actif">Connexion</a>
+  </div>
 </div>
-
-
 
 <div id="soustitre">
     <p>Votre comité d'entreprise depuis 2001<p>
 </div>
-
 
 <ul class="menu">
               <li>
                 <a href="index.php" class="actif">Accueil</a>
               </li>
               <li>
-                <a href="#">Les parcs</a>
+                <a href="parcs.php">Les parcs</a>
               </li>
               <li>
-                <a href="#">Cinéma</a>
+                <a href="cinema.php">Cinéma</a>
               </li>
               <li>
-                <a href="#">Boutiques</a>
+                <a href="boutique.php">Boutiques</a>
               </li>
         </ul>
 </div>
@@ -72,7 +73,7 @@ Alors pourquoi pas (chez) vous ?</P>
 en place en 2001 des avantages sociaux et culturels pour les salariés et 
 leur famille.</P>
 <p>Notre C.E regroupe tout ce qu’un comité d’entreprise pourrait offrir aux 
-collaborateurs (voyages, culture, loisirs, services à la personne, etc.).
+collaborateurs (voyages, culture, loisirs, etc.).
 Le tout sans contrainte de gestion pour l’employeur ! Pas étonnant donc
 que 8 500 dirigeants de PME soient déjà passés à l’action.
 Leur ambition ? Améliorer la qualité de vie de celles et ceux qui 
@@ -91,6 +92,7 @@ Alors pourquoi pas (chez) vous ?</P>
 
 </br>
 <div id="imgreduc">
+
 <img src="images/1.png" width="200" height="200"/>
 <img src="images/2.png" width="200" height="200"/>
 <img src="images/3.png" width="200" height="200"/>
@@ -114,6 +116,13 @@ Alors pourquoi pas (chez) vous ?</P>
 
 </div>
 
+
+
+<div id="foot">
+  <div id="enhaut">
+    <a href="#haut">Retour en haut de la page</a>
+  </div>
+</div>
 
 </body>
 </html>
